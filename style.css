@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    height: 500px;
+    background-color: blue;
+}
+
+/* Parte alta dell'intestazione */
+.higher-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 7%;
+
+}
+
+.logo {
+    width: 10%;
+    min-height: 100px;
+    background-color: lightblue;
+}
+nav {
+    width: 35%;
+    min-height: 100px;
+    background-color: purple;
+}
+
+.accedi {
+    width: 10%;
+    min-height: 100px;
+    background-color: pink;
+}
+
+/* Testo principale */
+
+.paragrafo {
+    width: 35%;
+    min-height: 200px;
+    background: green;
+    margin: 0 auto;
+}
